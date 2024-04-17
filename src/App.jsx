@@ -45,7 +45,7 @@ function App() {
   const handleSave = (e) =>{
     let error = '';
     if(firstName === '')
-    error += 'FirstName is required';
+    error += 'Firstname is required';
 
     if(lastName === '')
     error += 'lastName is required';
